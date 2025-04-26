@@ -3,7 +3,7 @@ import shutil
 import subprocess
 
 # 🔧 Set your movie folder
-source_folder = r"C:\Video"  # Update this if needed
+source_folder = r"YOUR_MOVIE_FOLDER"  # <--- Change this to your movie folder path
 
 # 📍 Direct path to ffprobe (adjust to where you installed FFmpeg)
 ffprobe_path = r"C:\ffmpeg\bin\ffprobe.exe"  # <--- Change this if your path is different

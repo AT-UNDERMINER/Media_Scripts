@@ -4,7 +4,7 @@ from datetime import datetime
 import stat
 
 # Your main movie folder
-main_dir = r"C:\Video"
+main_dir = r"MOVIE_FOLDER_PATH"  # Replace with your actual path
 log_file_path = os.path.join(os.path.dirname(__file__), "video_organizer.log")
 
 # Video file types to allow
